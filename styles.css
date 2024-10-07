@@ -1,0 +1,108 @@
+@font-face {
+    font-family: fonte1;
+    src: url(fonts/SailerTrial-Bold.ttf);
+}
+body{
+    font-family: "Baloo Paaji 2", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1126f;
+    /*background-image: url(https://u7.uidownload.com/vector/897/785/vector-abstract-hot-pink-burst-background-image-ai.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*/ 
+    
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+}
+
+header{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 15px;
+}
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    color: #000000;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 5px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin:auto;
+}
+
+form label{
+    margin-top: 10px;
+}
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+h1{
+    font-family: fonte1;
+    background-image: url(https://cdn.pixabay.com/animation/2024/04/20/18/20/18-20-50-469_512.gif);
+    color: transparent;
+    -webkit-background-clip: text;
+}
